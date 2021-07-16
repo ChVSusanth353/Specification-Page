@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Star Retail</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+     
+  </head>
+  <body style="background-color:white;">
+      
+    <script src="script.js"></script>
+    <section class="head" id="head">
+         <div class="img1" id="img1">
+            <img src="data:image/png;base64,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" height="150"></div>
+        <div class="log" id="log"><a href="https://dummy--susanth353.repl.co/">
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTBnruGKXzUB3fTDFvRvKBTUKZNtceAAhMRbxevvkAnkA&usqp=CAU&ec=45682160" height="18%" width="20%"></a></div>
+         <div class="sign" id="sign"><a href="https://dummy--susanth353.repl.co/">
+           <img src="https://freepngimg.com/thumb/web_design/24743-5-sign-up-button-transparent-thumb.png" heigth="60%" width="40%"></a></div>
+        <div class="title" id="title"> <p style="font-size:50px"><i><b>STAR RETAIL</b></i></p></div> 
+
+    
+        
+
+        <!-- Load icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- The form -->
+<form class="example" action="action_page.php">
+  <input type="text" placeholder="Search.." name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+
+        
+       
+       
+      </section>
+      <section class="spec" id="spec">
+        <div class="ph1" id="ph1">
+            <img src="https://rukminim1.flixcart.com/image/832/832/k2jbyq80pkrrdj/mobile-refurbished/u/k/g/galaxy-a70-128-b-sm-a705gzkhins-samsung-6-original-imaffnv6tzdve9ju.jpeg?q=70" height="400" ><br>
+          
+       </div>
+          <div class="specs" id="specs">
+              <h3><b>Samsung Galaxy A70(Blue, 128GB) (6GB RAM)</b></h3><br>
+              <mark>4.3/5</mark>  5,030 Ratings & 590 Reviews<br>
+              <h2>Rs 28,980</h2><s>Rs30,990</s>   6% Off<br>
+              <ul><h4>Available Offers:</h4>
+                  <li><b>Bank Offer</b> 5% Unlimited Cashbacks on Star retail credit Card</li>
+                  <li><b>Bank Offer</b>5% off* with Axis Buzz Credit Card</li>
+                  <li>No Cost Emi Rs 3,220/month.Standard EMI Also available</li>
+                  <li>Get Google Nest Mini chalk at Rs 1999</li><br>
+                
+              </ul></div>
+          <div class="high" id="high">
+              
+            <h3>Highlights:</h3><br>
+              <i>6 GB RAM | 128 GB ROM | Expandable Upto 512 GB</i><br><br>
+              <i>17.02cm(6.7 inch)Full HD+Display</i><br><br>
+              <i>32MP + 5MP + 8MP | 32MP Front Camera</i><br><br>
+              <i>4500 mAh Lithium-ion Battery</i><br><br>
+              <i>Qualcomm Snapdragon 675 Processor</i><br><br>
+              </div>
+         
+        
+         
+      </section>
+      <div class="hi" id="hi"><a href="https://dummy--susanth353.repl.co">
+            <img src="https://world.fantasticimago.com/wp-content/uploads/2016/02/orange-add-to-cart-button-with-credit-cards.png" height="20%" width="15%"></a>
+        
+      </div>
+                  
+              
+      <div class="hi1" id="hi1"><a href="https://dummy--susanth353.repl.co">
+            <img src="https://thumbs.dreamstime.com/t/buy-now-button-vector-illustration-orange-web-icon-white-background-120896946.jpg" width="15%" height="40%"></a>
+        
+          </div>
+      </body>
+       <section class="foot" id="foot">
+       <div class="about" id="about"> <ul><h2>About</h2>
+            <li>Contact Us</li>
+            <li>About Us</li>
+            <li>Careers</li>
+            <li>Press</li>
+           </ul></div>
+      <div class="help" id="help">  <ul><h2>Help</h2>
+            <li>Payments</li>
+            <li>Shipping</li>
+            <li>Cancellation & returns</li>
+            <li>Report an issue</li>
+        </ul></div>
+        <div class="policy" id="policy">  <ul><h2>Policy</h2>
+            <li>Return Policy</li>
+            <li>Time of Use</li>
+            <li>Careers</li>
+            <li>Privacy</li>
+        </ul></div>
+        
+        <div class="mail" id="mail">
+            <h2>Mail us</h2>
+            <h4>StarRetail@gmail.com</h4>
+                
+            
+        </div>
+        <div class="off" id="off">
+            <h2>Registered Office</h2>
+            <p>26-15/34,<br>Jaynagar,<br>bangalore,<br>560064<br>
+                </p>
+        </div>
+    </section>
+    
+      </html>
+  
